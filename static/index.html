@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      padding: 1rem;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background: #4CAF50;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: #e8f5e9;
+    }
+
+    .hero h1 {
+      margin-bottom: 1rem;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .product-card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin: 1rem;
+      padding: 1rem;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .product-card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    .product-card h3 {
+      margin: 0.5rem 0;
+    }
+
+    .product-card button {
+      background: #4CAF50;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .product-card button:hover {
+      background: #45a049;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Product Store</h1>
+    <p>Quality products at the best prices</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>GB SONGS</h1>
+    <p>All TYPE OF SHINA SONGS AVAILABLE</p>
+  </section>
+
+  <section class="products">
+    <div class="product-card">
+      <img src="img/ghafoor.jpg" alt="Product 1">
+      <h3>Product 1</h3>
+      <p>1000rs</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="product-card">
+      <img src="img/jabir.jpg" alt="Product 2">
+      <h3>Product 2</h3>
+      <p>2000rs</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="product-card">
+      <img src="img/salman.jpg" alt="Product 3">
+      <h3>Product 3</h3>
+      <p>500rs</p>
+      <button>Buy Now</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 My Product Store. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
